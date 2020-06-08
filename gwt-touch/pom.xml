@@ -73,6 +73,11 @@
     <maven.source.plugin>3.2.1</maven.source.plugin>
 
     <elemental2.version>1.0.0</elemental2.version>
+    <core.version>HEAD-SNAPSHOT</core.version>
+    <dom.version>1.0-SNAPSHOT</dom.version>
+    <event.version>HEAD-SNAPSHOT</event.version>
+    <event-dom.version>1.0-SNAPSHOT</event-dom.version>
+    <window.version>HEAD-SNAPSHOT</window.version>
   </properties>
 
   <dependencies>
@@ -80,6 +85,41 @@
       <groupId>com.google.elemental2</groupId>
       <artifactId>elemental2-dom</artifactId>
       <version>${elemental2.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.core</groupId>
+      <artifactId>gwt-core</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.dom</groupId>
+      <artifactId>gwt-dom</artifactId>
+      <version>${dom.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.event</groupId>
+      <artifactId>gwt-event</artifactId>
+      <version>${event.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.event</groupId>
+      <artifactId>gwt-event-legacy</artifactId>
+      <version>${event.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.event</groupId>
+      <artifactId>gwt-logical-event</artifactId>
+      <version>${event.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.event</groupId>
+      <artifactId>gwt-event-dom</artifactId>
+      <version>${event-dom.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.gwtproject.user.window</groupId>
+      <artifactId>gwt-window</artifactId>
+      <version>1.0.0-RC1</version>
     </dependency>
   </dependencies>
 

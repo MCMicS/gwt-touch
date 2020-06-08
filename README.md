@@ -1,6 +1,6 @@
 # GWT Touch
 
-![GWT3/J2CL compatible](https://img.shields.io/badge/GWT3/J2CL-compatible-brightgreen.svg)  [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html) [![Chat on Gitter](https://badges.gitter.im/hal/elemento.svg)](https://gitter.im/gwtproject/gwt-modules) ![CI](https://github.com/gwtproject/gwt-touch/workflows/CI/badge.svg)
+![GWT3/J2CL compatible](https://img.shields.io/badge/GWT3/J2CL-incompatible-red.svg)  [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html) [![Chat on Gitter](https://badges.gitter.im/hal/elemento.svg)](https://gitter.im/gwtproject/gwt-modules) ![CI](https://github.com/gwtproject/gwt-touch/workflows/CI/badge.svg)
 
 A future-proof port of the `com.google.gwt.touch.Touch` GWT module, with no dependency on `gwt-user` (besides the Java Runtime Emulation), to prepare for GWT 3 / J2Cl.
 
@@ -57,5 +57,8 @@ on the parent directory. This will build the artifact and run tests against the 
 ## Dependencies
 
 GWT Touch depends on:
-* 
+* org.gwtproject.core.Core
+* org.gwtproject.event.Event
+* org.gwtproject.dom.DOM
+* org.gwtproject.user.window.Window
 

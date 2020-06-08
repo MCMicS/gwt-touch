@@ -19,6 +19,10 @@
 <module rename-to="touch">
   <!-- Other module inherits                                      -->
   <inherits name="elemental2.dom.Dom"/>
+  <inherits name="org.gwtproject.core.Core"/>
+  <inherits name="org.gwtproject.event.Event" />
+  <inherits name="org.gwtproject.dom.DOM" />
+  <inherits name="org.gwtproject.user.window.Window" />
 
   <!-- sources -->
   <source path="client"/>
