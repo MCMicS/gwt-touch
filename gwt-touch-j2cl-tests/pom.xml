@@ -21,13 +21,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.gwtproject.timer</groupId>
+    <groupId>org.gwtproject.touch</groupId>
     <artifactId>gwt-touch-parent</artifactId>
     <version>${revision}</version>
   </parent>
   <artifactId>gwt-touch-j2cl-tests</artifactId>
 
-  <name>GWT Timer J2CL Tests</name>
+  <name>GWT Touch J2CL Tests</name>
   <description>Test cases for the J2Cl tests</description>
   <url>https://github.com/gwtproject/gwt-touch</url>
 

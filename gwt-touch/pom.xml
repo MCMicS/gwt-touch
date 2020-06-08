@@ -21,16 +21,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.gwtproject.timer</groupId>
+  <groupId>org.gwtproject.touch</groupId>
   <artifactId>gwt-touch</artifactId>
   <version>${revision}</version>
   <packaging>gwt-lib</packaging>
 
-  <name>GWT Timer</name>
-  <description>A simplified, browser-safe timer class. This class serves the same purpose as
-    java.util.Timer, but is simplified because of the single-threaded
-    environment. To schedule a timer, simply create a subclass of it (overriding run) and call
-    schedule or scheduleRepeating.
+  <name>GWT Touch</name>
+  <description>
   </description>
   <url>https://github.com/gwtproject/gwt-touch</url>
 
@@ -94,7 +91,7 @@
         <version>${maven.gwt.plugin}</version>
         <extensions>true</extensions>
         <configuration>
-          <moduleName>org.gwtproject.timer.Timer</moduleName>
+          <moduleName>org.gwtproject.touch.Touch</moduleName>
         </configuration>
       </plugin>
       <plugin>
